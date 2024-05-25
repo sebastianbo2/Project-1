@@ -1,16 +1,7 @@
 body {
-  padding-top: 170px;
-  padding-bottom: 2000px;
   margin: 0;
-}
-
-.title {
-  font-size: 50px;
-  font-family: "Times New Roman", Times, serif;
-  color: rgb(28, 31, 77);
-  font-weight: 800;
-  border-right: rgb(131, 129, 129) 1px solid;
-  padding: 50px 100px;
+  background-color: #130f49;
+  color: white;
 }
 
 header {
@@ -21,15 +12,20 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1000;
-  position: fixed;
-  background-color: white;
+  background-color: #130f49;
+}
+
+nav {
+  margin-right: 175px;
 }
 
 .header-logo {
   width: 175px;
-  border-radius: 50px;
+  border-radius: 90px;
   background-color: white;
+  margin-left: 175px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header-items {
@@ -41,9 +37,9 @@ header {
 .header-items li a {
   display: inline-block;
   padding: 0px 20px;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
-  color: #0088a9;
+  color: white;
   font-style: Arial, sans-serif;
   font-weight: 800;
 }
@@ -54,5 +50,5 @@ header {
 
 .header-items li a:hover {
   transition: 0.3s;
-  color: #0088a9;
+  text-decoration: underline;
 }
