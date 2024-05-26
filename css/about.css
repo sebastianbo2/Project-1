@@ -1,0 +1,13 @@
+.about_text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.soap_image {
+    text-align: center;
+}
+
+.soap_image img {
+    max-width: 100%;
+    height: auto;
+}
